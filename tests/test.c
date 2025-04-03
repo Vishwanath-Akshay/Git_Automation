@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 // Function prototype
-int missingNumber(int* nums, int size);
+
 
 void runTestCases() {
     int testCases[6][10] = {

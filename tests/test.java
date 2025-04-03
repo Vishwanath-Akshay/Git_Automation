@@ -24,10 +24,10 @@ public class test {
                 if (j < testCases[i].length - 1) System.out.print(", ");
             }
             System.out.println("}");
-            
+
             System.out.println("Expected Output: " + expectedOutputs[i]);
             System.out.println("Your Output: " + result);
-            
+
             System.out.println("Test Case: " + (result == expectedOutputs[i] ? "✅ Passed" : "❌ Failed"));
         }
         System.out.println("-------------------------------");

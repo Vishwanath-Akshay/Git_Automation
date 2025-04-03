@@ -1,4 +1,4 @@
-public class test {
+public class Test {
     public static void runTestCases() {
         int[][] testCases = {
             {0},  // Test case 1

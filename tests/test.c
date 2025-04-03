@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Function prototype
+int missingNumber(int* nums, int size);
+
 void runTestCases() {
     int testCases[6][10] = {
         {0},  // Test case 1
@@ -15,7 +18,7 @@ void runTestCases() {
     int expectedOutputs[6] = {1, 0, 2, 9, 0, 5};
 
     for (int i = 0; i < 6; i++) {
-        int result = runTest(testCases[i], sizes[i]);
+        int result = missingNumber(testCases[i], sizes[i]);
 
         printf("\n-------------------------------\n");
         printf("Test Case %d\n", i + 1);

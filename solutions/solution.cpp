@@ -1,6 +1,4 @@
 #include <vector>
-#include <vector>
-#include "../tests/test.cpp"
 class solution {
 public:
     int missingNumber(std::vector<int>& nums) {
@@ -15,4 +13,4 @@ public:
 
         return totalSum - actualSum;
     }
-};//end
+};//endd

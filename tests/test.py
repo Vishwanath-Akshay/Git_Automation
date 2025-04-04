@@ -1,4 +1,4 @@
-from solutions.solution import Solution
+from solutions.solution import Solution 
 
 def run_test_cases():
     test_cases = [

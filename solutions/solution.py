@@ -1,4 +1,4 @@
-class Solution:
+class solution:
     def missingNumber(self, nums):
         n = len(nums)
         total_sum = (n * (n + 1)) // 2

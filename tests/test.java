@@ -1,3 +1,6 @@
+package tests;
+import solutions.Solution;
+
 public class Test {
     public static void runTestCases() {
         int[][] testCases = {

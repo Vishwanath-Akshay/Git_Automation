@@ -1,5 +1,5 @@
 package tests;
-import solutions.Solution;
+import solutions.Solution1;
 import java.util.*;
 public class Test{
     public static void runTestCases() {
@@ -14,7 +14,7 @@ public class Test{
 
         int[] expectedOutputs = {1, 0, 2, 9, 0, 5};
 
-        Solution solution = new Solution();
+        Solution1 solution = new Solution1();
         
         for (int i = 0; i < testCases.length; i++) {
             int result = solution.missingNumber(testCases[i]);

@@ -1,6 +1,6 @@
 package tests;
 import solutions.Solution;
-import java.util.*;
+import java.util.Array;
 public class Test {
     public static void runTestCases() {
         int[][] testCases = {

@@ -1,5 +1,6 @@
 #include <vector>
-
+#include <iostream>
+#include "../tests/test.cpp"
 class solution {
 public:
     int missingNumber(std::vector<int>& nums) {

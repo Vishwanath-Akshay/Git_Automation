@@ -1,5 +1,5 @@
 #include <vector>
-#include <iostream>
+#include <vector>
 #include "../tests/test.cpp"
 class solution {
 public:

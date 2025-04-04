@@ -1,7 +1,7 @@
 package tests;
 import solutions.Solution;
 import java.util.*;
-public class Test {
+public class Test{
     public static void runTestCases() {
         int[][] testCases = {
             {0},  // Test case 1

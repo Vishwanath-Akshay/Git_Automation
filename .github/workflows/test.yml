@@ -82,7 +82,7 @@ jobs:
       run: |
         echo "Running Java Test Cases..."
         javac -d . solutions/Solution1.java tests/Test1.java
-        java tests.Test
+        java tests.Test1
 
     - name: Upload Test Results
       if: always()

@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include "solution.cpp"  // Include Solution class
+#include "../solutions/solution.cpp"  // Include Solution class
 
 void runTestCases() {
     std::vector<std::vector<int>> testCases = {

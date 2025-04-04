@@ -8,4 +8,4 @@ int missingNumber(int* nums, int numsSize) {
     totsum=((numsSize)*(numsSize+1))/2;
     int y=totsum-asum;
       return y;
- } //endddd
+ } //enddd

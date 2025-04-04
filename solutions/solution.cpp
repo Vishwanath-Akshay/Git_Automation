@@ -14,4 +14,4 @@ public:
 
         return totalSum - actualSum;
     }
-};
+};//end

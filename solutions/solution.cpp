@@ -1,6 +1,6 @@
 #include <vector>
 
-class Solution {
+class solution {
 public:
     int missingNumber(std::vector<int>& nums) {
         int actualSum = 0, totalSum = 0;

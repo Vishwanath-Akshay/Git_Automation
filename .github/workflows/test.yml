@@ -1,5 +1,4 @@
 name: Run Code Tests
-
 on:
   push:
     paths:
@@ -90,7 +89,7 @@ jobs:
           echo "Running Java Test Cases..."
           java -cp out tests.Test
 
-      - name: Upload Test Results
+      - name: Upload Test Results 
         if: always()
         uses: actions/upload-artifact@v4
         with:

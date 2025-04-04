@@ -1,4 +1,4 @@
-package solutions;//end
+package solutions;//endd
 public class Solution {
     public int missingNumber(int[] nums) {
         int actualSum = 0, totalSum = 0;

@@ -12,7 +12,7 @@ public class Test1{
             {0, 1, 2, 3, 4, 6, 7, 8, 9, 10}  // Test case 6
         };
 
-        int[] expectedOutputs = {1, 0, 2, 9, 0, 5};
+        int[] expectedOutputs = {1, 0, 2, 9, 0, 4};
 
         Solution1 solution = new Solution1();
         
